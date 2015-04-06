@@ -1,22 +1,25 @@
 {
-    "installed_packages":
-    [
-        "Alignment",
-        "AutoFileName",
-        "BracketHighlighter",
-        "Color Highlighter",
-        "Dotfiles Syntax Highlighting",
-        "EditorConfig",
-        "Emmet",
-        "JavaScript Patterns",
-        "jQuery",
-        "LESS",
-        "Package Control",
-        "SCSS",
-        "SideBarEnhancements",
-        "SublimeLinter",
-        "SublimeLinter-html-tidy",
-        "SublimeLinter-jshint",
-        "Theme - Centurion"
-    ]
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"JavaScript Patterns",
+		"jQuery",
+		"LESS",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"Theme - Centurion"
+	]
 }
