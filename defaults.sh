@@ -9,10 +9,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # General UI/UX
 ###############################################################################
 
-# Return from sleep faster
-sudo pmset -a standbydelay 86400
-# Disable hibernation
-sudo pmset -a hibernatemode 0
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 # Disable time machine
