@@ -1,10 +1,12 @@
 # Ericorruption's onboarding files
 Just run these in order:
-1. defaults.sh
-2. homebrew.sh
-3. shell.sh
-4. npm.sh
-5. symlink.sh
+
+1.`mkdir ~/Sites && cd ~/Sites && git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles`
+2. defaults.sh
+3. homebrew.sh
+4. shell.sh
+5. npm.sh
+6. symlink.sh
 
 ##TODO
 * Download IE VMs
