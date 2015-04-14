@@ -31,7 +31,6 @@ apps=(
   xquartz
 
   spotify
-  sonora
 
   qlstephen
   qlimagesize
