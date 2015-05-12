@@ -10,3 +10,4 @@ Just run these in order:
 
 ##TODO
 * Download IE VMs
+* Fix cask install
