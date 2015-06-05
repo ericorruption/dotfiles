@@ -81,5 +81,6 @@ alias cask="brew cask"
 alias update="sudo softwareupdate -i -a; brew doctor; brew update; brew upgrade; brew cleanup; cask update; cask cleanup; npm update -g; sudo gem update --system; sudo gem update"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias phpserver="php -S localhost:8000"
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
