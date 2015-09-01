@@ -8,7 +8,7 @@ fi
 brew doctor
 brew update
 brew upgrade
-brew install git node bash zsh tidy caskroom/cask/brew-cask
+brew install git node bash zsh tidy-html5 caskroom/cask/brew-cask
 brew cleanup
 
 # Apps
