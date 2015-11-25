@@ -11,6 +11,7 @@ ln -s ~/Sites/dotfiles/Preferences.sublime-settings ~/Library/Application\ Suppo
 
 # homebrew does this one already!
 # ln -s "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+# If you need to use this separately on the terminal remove the quotes
 
 # IOS SIM!
 sudo ln -s "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
