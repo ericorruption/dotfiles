@@ -25,10 +25,9 @@ apps=(
   filezilla
   vagrant
   virtualbox
-  totalterminal
+  iterm2-nightly
   sublime-text3
   sourcetree
-  xquartz
 
   spotify
 
