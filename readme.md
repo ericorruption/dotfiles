@@ -6,7 +6,8 @@ Just run these in order:
 3. homebrew.sh
 4. shell.sh
 5. npm.sh
-6. symlink.sh
+6. gem.sh
+7. symlink.sh
 
 ##TODO
 * Download IE VMs
