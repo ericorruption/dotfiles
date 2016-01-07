@@ -1,1 +1,1 @@
-npm install -g jshint gulp
+npm install -g http-server nodemon
