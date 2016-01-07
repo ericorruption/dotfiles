@@ -8,7 +8,7 @@ fi
 brew doctor
 brew update
 brew upgrade
-brew install git node bash zsh tidy-html5 caskroom/cask/brew-cask
+brew install git node bash zsh ios-sim mongodb mysql php56 ruby sqlite caskroom/cask/brew-cask
 brew cleanup
 
 # Apps
@@ -27,6 +27,7 @@ apps=(
   iterm2-nightly
   atom
   sourcetree
+  sequel-pro
 
   spotify
 
