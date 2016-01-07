@@ -26,7 +26,7 @@ apps=(
   vagrant
   virtualbox
   iterm2-nightly
-  sublime-text3
+  atom
   sourcetree
 
   spotify
