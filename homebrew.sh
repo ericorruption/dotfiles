@@ -13,7 +13,6 @@ brew cleanup
 
 # Apps
 apps=(
-  asepsis
   caffeine
   appcleaner
   the-unarchiver
