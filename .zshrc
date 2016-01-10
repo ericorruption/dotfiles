@@ -76,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="subl ~/.zshrc"
+alias zshconfig="atom ~/.zshrc"
 alias cask="brew cask"
 alias update="sudo softwareupdate -i -a; brew doctor; brew update; brew upgrade; brew cleanup; cask update; cask cleanup; npm update -g; sudo gem update --system; sudo gem update"
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
