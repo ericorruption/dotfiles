@@ -12,7 +12,6 @@ brew doctor
 brew update
 brew upgrade
 brew install git node bash zsh ios-sim mongodb mysql php56 ruby sqlite caskroom/cask/brew-cask
-brew cleanup
 
 # Apps
 apps=(
@@ -43,3 +42,4 @@ apps=(
 echo "installing apps..."
 brew tap caskroom/versions
 brew cask install --appdir="/Applications" ${apps[@]}
+brew cleanup
