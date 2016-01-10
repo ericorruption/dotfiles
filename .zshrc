@@ -78,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="atom ~/.zshrc"
 alias cask="brew cask"
-alias update="sudo softwareupdate -i -a; brew doctor; brew update; brew upgrade; brew cleanup; cask update; cask cleanup; npm update -g; sudo gem update --system; sudo gem update"
+alias update="sudo softwareupdate -i -a; brew doctor; brew update; brew upgrade; brew cleanup; npm update -g; sudo gem update --system; sudo gem update"
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
