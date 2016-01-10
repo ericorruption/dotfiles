@@ -1,4 +1,7 @@
 # Run all updates that are possible from the App Store.
+sudo softwareupdate -iva
+
+# Install Xcode
 xcode-select --install
 
 if test ! $(which brew); then
