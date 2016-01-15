@@ -11,7 +11,7 @@ fi
 brew doctor
 brew update
 brew upgrade
-brew install git node bash zsh ios-sim mongodb mysql php56 ruby sqlite
+brew install git node bash zsh ios-sim mongodb mysql homebrew/php/php56 ruby sqlite
 
 # Apps
 apps=(
