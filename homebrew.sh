@@ -22,7 +22,6 @@ apps=(
 
   google-chrome
   firefoxdeveloperedition
-  opera
   filezilla
   vagrant
   virtualbox
