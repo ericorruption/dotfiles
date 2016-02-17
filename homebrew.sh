@@ -38,7 +38,7 @@ apps=(
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
-echo "installing apps..."
+echo "installing apps... Don't move SourceTree when it asks you to!"
 brew tap caskroom/versions
 brew cask install --appdir="/Applications" ${apps[@]}
 brew cleanup
