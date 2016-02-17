@@ -11,34 +11,10 @@ fi
 brew doctor
 brew update
 brew upgrade
-brew install git node bash zsh ios-sim mongodb mysql homebrew/php/php56 ruby sqlite
-
-# Apps
-apps=(
-  caffeine
-  appcleaner
-  the-unarchiver
-  spectacle
-
-  google-chrome
-  firefoxdeveloperedition
-  filezilla
-  vagrant
-  virtualbox
-  iterm2-nightly
-  atom
-  sourcetree
-  sequel-pro
-
-  spotify
-
-  qlstephen
-  qlimagesize
-)
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "installing apps... Don't move SourceTree when it asks you to!"
-brew tap caskroom/versions
-brew cask install --appdir="/Applications" ${apps[@]}
+brew bundle
+
 brew cleanup
