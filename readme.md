@@ -5,4 +5,3 @@ Then run `mkdir ~/Sites && cd ~/Sites && git clone https://github.com/ericorrupt
 
 ##TODO
 * Download IE VMs
-* we dont have permission to install gems on the terminal initially.
