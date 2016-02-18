@@ -43,6 +43,8 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 # Download updates by default
 sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate 'AutomaticDownload' -bool true
 
+# Disable notification center
+launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
 ###############################################################################
 # Keyboard, mouse & input
@@ -55,7 +57,8 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 # Disabling auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write -g NSAllowContinuousSpellChecking -bool false
-
+# Keyboard access to all UI controls
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 ###############################################################################
 # Screen
@@ -149,6 +152,14 @@ defaults write com.apple.menuextra.battery ShowTime -string "NO"
 
 # 24-Hour Time
 defaults write NSGlobalDomain AppleICUForce12HourTime -bool false
+
+
+###############################################################################
+# iTerm
+###############################################################################
+
+# Don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 
 ###############################################################################
