@@ -84,4 +84,3 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias phpserver="php -S localhost:8000"
 
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"

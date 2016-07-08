@@ -1,4 +1,3 @@
-cask_args appdir: '/Applications'
 tap 'caskroom/versions'
 
 
@@ -9,15 +8,17 @@ brew 'zsh'
 brew 'ios-sim'
 brew 'mongodb'
 brew 'mysql'
-brew 'homebrew/php/php56'
-brew 'ruby'
+brew 'postgresql'
+brew 'redis'
 brew 'sqlite'
-
+brew 'rbenv'
 
 cask 'caffeine'
 cask 'appcleaner'
 cask 'the-unarchiver'
 cask 'spectacle'
+cask 'slack'
+cask 'cheatsheet'
 
 cask 'firefoxdeveloperedition'
 cask 'filezilla'
@@ -27,6 +28,9 @@ cask 'iterm2-nightly'
 cask 'atom'
 cask 'sourcetree'
 cask 'sequel-pro'
+cask 'ngrok'
+cask 'valentina-studio'
+cask 'dbvisualizer'
 
 cask 'spotify'
 
