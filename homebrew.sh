@@ -12,8 +12,6 @@ brew doctor
 brew update
 brew upgrade
 
-# Install apps to /Applications
-# Default is: /Users/$user/Applications
 echo "installing apps... Don't move SourceTree when it asks you to!"
 brew bundle
 
