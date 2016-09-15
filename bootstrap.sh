@@ -6,5 +6,5 @@ source ./defaults.sh
 source ./homebrew.sh
 source ./shell.sh
 source ./npm.sh
-source ./gem.sh
 source ./symlink.sh
+source ./gem.sh
