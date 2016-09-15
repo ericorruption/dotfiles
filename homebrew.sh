@@ -12,7 +12,7 @@ brew doctor
 brew update
 brew upgrade
 
-echo "installing apps... Don't move SourceTree when it asks you to!"
+echo "installing apps..."
 brew bundle
 
 brew cleanup
