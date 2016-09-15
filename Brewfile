@@ -20,6 +20,7 @@ cask 'spectacle'
 cask 'slack'
 cask 'cheatsheet'
 
+cask 'google-chrome'
 cask 'firefoxdeveloperedition'
 cask 'filezilla'
 cask 'vagrant'
