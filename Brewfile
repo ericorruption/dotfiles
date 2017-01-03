@@ -31,9 +31,9 @@ cask 'sourcetree'
 cask 'sequel-pro'
 cask 'ngrok'
 cask 'valentina-studio'
-cask 'dbvisualizer'
 
 cask 'spotify'
 
 cask 'qlstephen'
 cask 'qlimagesize'
+cask 'qlmarkdown'
