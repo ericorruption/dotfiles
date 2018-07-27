@@ -1,1 +1,1 @@
-npm install -g http-server nodemon
+npm install -g http-server npm-check
