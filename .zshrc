@@ -57,6 +57,8 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+alias code="code-insiders"
+
 export EDITOR=code
 export VISUAL=code
 
@@ -83,5 +85,4 @@ alias update="sudo softwareupdate -i -a; brew doctor; brew update; brew upgrade;
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias phpserver="php -S localhost:8000"
-
+alias ios-sim="open -a Simulator"
