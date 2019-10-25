@@ -12,7 +12,7 @@ cask 'oversight'
 
 cask 'google-chrome'
 cask 'firefox'
-cask 'visual-studio-code-insiders' 
+cask 'visual-studio-code' 
 cask 'imageoptim'
 cask 'ngrok'
 cask 'valentina-studio'

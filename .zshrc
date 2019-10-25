@@ -57,8 +57,6 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
-alias code="code-insiders"
-
 export EDITOR=code
 export VISUAL=code
 
