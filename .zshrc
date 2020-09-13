@@ -61,9 +61,6 @@ export EDITOR=code
 export VISUAL=code
 
 export GPG_TTY="$(tty)"
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-# nvm use
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -84,3 +81,5 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ios-sim="open -a Simulator"
+
+. $(brew --prefix asdf)/asdf.sh
