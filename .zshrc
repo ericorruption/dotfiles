@@ -75,11 +75,20 @@ export GPG_TTY="$(tty)"
 #
 # Example aliases
 alias zshconfig="code ~/.zshrc"
-alias cask="brew cask"
 alias update="sudo softwareupdate -i -a; brew doctor; brew update; brew upgrade; brew cleanup;"
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ios-sim="open -a Simulator"
+alias gsp='git stash && git pull && git stash pop'
+alias gc='git commit -m '
+
+function groom-deps {
+  key=${1:-dependencies}
+  for dep in $(cat package.json | jq -cr ".$key|keys|.[]");
+  do [[ -z "$(grep -r  --exclude-dir=node_modules "'${dep}" .)" ]] && echo "$dep appears unused";
+  done
+}
+
 
 . $(brew --prefix asdf)/asdf.sh
