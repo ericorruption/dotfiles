@@ -90,5 +90,3 @@ function groom-deps {
   done
 }
 
-
-. $(brew --prefix asdf)/asdf.sh
