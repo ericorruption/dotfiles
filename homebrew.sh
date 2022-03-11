@@ -1,12 +1,10 @@
 # Run all updates that are possible from the App Store.
-sudo softwareupdate -iva
+sudo softwareupdate -ia --agree-to-license
 
 # Install Xcode
 xcode-select --install
 
-if test ! $(which brew); then
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew doctor
 brew update
