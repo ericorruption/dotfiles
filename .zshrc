@@ -82,6 +82,9 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias ios-sim="open -a Simulator"
 alias gsp='git stash && git pull && git stash pop'
 alias gc='git commit -m '
+alias ni='npm i'
+alias ns='npm start'
+alias nr='npm run '
 
 function groom-deps {
   key=${1:-dependencies}
