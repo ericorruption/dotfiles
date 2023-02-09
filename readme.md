@@ -6,4 +6,4 @@ Then run `mkdir ~/Sites && cd ~/Sites && git clone https://github.com/ericorrupt
 ## Manual steps
 
 - [NVM](https://github.com/nvm-sh/nvm)
-- Import Raycast preferences
+- `git config --global commit.gpgsign true`
